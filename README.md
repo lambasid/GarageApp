@@ -1,66 +1,49 @@
 # 🚗 GarageApp
 
-GarageApp is an iOS application that allows users to **store and view car details** seamlessly. Users can enter their car's make, model, year, color, and kilometers, which are stored and retrieved using a global object in `AppDelegate`. 
+GarageApp is an iOS application that allows users to **store and view car details** seamlessly. Users can enter their car's make, model, year, color, and kilometers, which are stored and retrieved using a global object in `AppDelegate`. This iOS app is designed to **work flawlessly on all devices** and has be tested on multiple simulators.
 
-## 📌 Features
-- **Subpage 1:** Enter car details (make, model, year, color, kilometers).
-- **Confirmation Alert:** Ensures users confirm before saving.
-- **Data Persistence:** Saves car details globally via `AppDelegate`.
-- **Subpage 2:** Displays saved car details.
-- **Smooth Navigation:** Uses `UINavigationController` for seamless transitions.
+## 📌 App Structure
 
-## 🚀 Installation & Setup
-1. **Clone the repository**
-   ```sh
-   git clone https://github.com/lambasid/GarageApp.git
-   cd GarageApp
+The app consists of **a home page** and **three sub-pages**:
 
-2. **Open in Xcode**
+1. **Home Page**  
+   - Redirects to **Subpage 1** and **Subpage 2**.
 
-1. Open `GarageApp.xcodeproj` in Xcode.
-2. Ensure **iOS Deployment Target** is set correctly.
+2. **Subpage 1: Car Details Input**
+   - Allows the user to enter car details:
+     - **Make** (Text)
+     - **Model** (Text)
+     - **Year** (Numbers only)
+     - **Color** (Segmented control with 5 options)
+     - **Kilometers Driven** (Numbers only)
+   - A **Submit Button** triggers a confirmation alert (`Yes/No`).
+   - If confirmed, the data is **saved into an object**.
+   - The object is stored and referenced through `AppDelegate`.
 
-## ▶️ Run the App
+3. **Subpage 2: Car Details Display**
+   - Displays **saved car details** from **Subpage 1**.
+   - References the object stored in `AppDelegate`.
+   - Contains a **link to Subpage 3**.
 
-1. Select an **iOS Simulator** or **physical device**.
-2. Click **Run** ▶️ to launch the app.
+4. **Subpage 3: Animated Image Display**
+   - **Image 1**: Uses an `UIImageView` slideshow displaying **5 car images on repeat**.
+   - **Image 2**: Uses a `CALayer` with **Basic Animations**:
+     - Fades **in and out**.
+     - Rotates **continuously**.
 
-## 📖 Usage
+## 🎨 UI/UX Design Requirements
 
-1. Open the app and navigate to **Subpage 1**.
-2. Enter car details:
-   - **Make** (Text)
-   - **Model** (Text)
-   - **Year** (Numbers only)
-   - **Color** (Choose from 5 options)
-   - **KMs Driven** (Numbers only)
-3. Click **Submit**, confirm in the alert, and save details.
-4. Click **"Go to Display Page"** to view saved car details.
-5. Return to **Subpage 1** to update details if needed.
+- **Attractive UI** with proper graphics on all pages.
+- **Navigation Bars & Back Buttons** should be present on all sub-pages.
+- **Background Music** should play on **all pages**.
 
-## 🛠️ Technologies Used
+## 🛠️ Development Requirements
 
-- **Swift** (UIKit)
-- **Xcode**
-- **AppDelegate** for global data storage
-- **Storyboards & Auto Layout**
-- **UINavigationController** for navigation
-
-## 📝 Project Structure
-
-```bash
-📂 GarageApp
- ├── 📂 GarageApp
- │   ├── AppDelegate.swift
- │   ├── Car.swift         # Car Model
- │   ├── CarDetailsViewController.swift  # Subpage 1 (Input)
- │   ├── CarDetailsDisplayViewController.swift  # Subpage 2 (Display)
- │   ├── Main.storyboard   # UI Layout
- │   ├── Assets.xcassets   # Images & Icons
- │   ├── Info.plist
- ├── GarageApp.xcodeproj
- ├── README.md
-```
+- **Auto Layout & Constraints** for multi-device support.
+- **Navigation Controller** for smooth page transitions.
+- **Use of AppDelegate** for persistent data reference.
+- **Animations with Core Animation (`CALayer`)**.
+- **Background audio playback support**.
 
 ## 💡 Future Improvements
 
@@ -78,4 +61,4 @@ Contributions are welcome! Feel free to **fork the repo** and submit a pull requ
 2. **Create a new branch:**
    ```sh
    git checkout -b feature-branch
-
+   ```
