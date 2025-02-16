@@ -30,6 +30,21 @@ The app consists of **a home page** and **three sub-pages**:
    - **Image 2**: Uses a `CALayer` with **Basic Animations**:
      - Fades **in and out**.
      - Rotates **continuously**.
+    
+## 🚀 Installation & Setup
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/lambasid/GarageApp.git
+   cd GarageApp
+   ```
+2. **Open in Xcode**
+    - Open ```GarageApp.xcodeproj``` in Xcode.
+   - Ensure **iOS Deployment Target** is set correctly.
+ 3. **Run the App**
+
+- Select an iOS Simulator or physical device.
+- Click **Run** ▶️ to launch the app.
+
 
 ## 🎨 UI/UX Design Requirements
 
