@@ -40,8 +40,8 @@ The app consists of **a home page** and **three sub-pages**:
 2. **Open in Xcode**
     - Open ```GarageApp.xcodeproj``` in Xcode.
    - Ensure **iOS Deployment Target** is set correctly.
+     
  3. **Run the App**
-
 - Select an iOS Simulator or physical device.
 - Click **Run** ▶️ to launch the app.
 
