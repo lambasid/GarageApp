@@ -95,9 +95,9 @@ This project is licensed under the **MIT License**
 ### **📌 What’s Included?**
 ✅ [**Clear project description**](#-garageapp)  
 ✅ [**Installation & usage guide**](#-installation--setup)  
-✅ [**Project structure overview**](#-project-structure)  
+✅ [**Project structure overview**](#-app-structure)  
 ✅ [**Future improvements & contribution guide**](#-future-improvements)  
-✅ [**Repo link & contact info**](#-repo-link)
+✅ [**Repo link & contact info**](#-license)
 
 
 
