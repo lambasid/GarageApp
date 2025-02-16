@@ -72,8 +72,8 @@ git commit -m "Add new feature"
 This project is licensed under the **MIT License**
 
 --
-**🔗 Repo Link**: GarageApp
-**💬 Questions**? Open an issue or contact lambasid.
+- **🔗 Repo Link**: GarageApp
+- **💬 Questions**? Open an issue or contact lambasid.
 
 ---
 
