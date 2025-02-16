@@ -62,3 +62,12 @@ Contributions are welcome! Feel free to **fork the repo** and submit a pull requ
    ```sh
    git checkout -b feature-branch
    ```
+3. **Commit your changes:**
+```sh
+git commit -m "Add new feature"
+```
+4. **Push to your fork and submit a PR.**
+
+## 📄 License
+This project is licensed under the MIT License.
+
