@@ -60,6 +60,7 @@ GarageApp is an iOS application that allows users to **store and view car detail
  │   ├── Info.plist
  ├── GarageApp.xcodeproj
  ├── README.md
+```
 
 ## 💡 Future Improvements
 
