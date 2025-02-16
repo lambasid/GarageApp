@@ -71,3 +71,17 @@ git commit -m "Add new feature"
 ## 📄 License
 This project is licensed under the **MIT License**
 
+--
+**🔗 Repo Link**: GarageApp
+**💬 Questions**? Open an issue or contact lambasid.
+
+---
+
+### **📌 What’s Included?**
+✅ **Clear project description**  
+✅ **Installation & usage guide**  
+✅ **Project structure overview**  
+✅ **Future improvements & contribution guide**  
+✅ **Repo link & contact info**  
+
+
