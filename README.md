@@ -34,8 +34,8 @@ The app consists of **a home page** and **three sub-pages**:
 ## 🎨 UI/UX Design Requirements
 
 - **Attractive UI** with proper graphics on all pages.
-- **Navigation Bars & Back Buttons** should be present on all sub-pages.
-- **Background Music** should play on **all pages**.
+- **Navigation Bars & Back Buttons** present on all sub-pages.
+- **Background Music** play on **all pages**.
 
 ## 🛠️ Development Requirements
 
