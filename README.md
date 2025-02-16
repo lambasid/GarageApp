@@ -60,3 +60,21 @@ GarageApp is an iOS application that allows users to **store and view car detail
  │   ├── Info.plist
  ├── GarageApp.xcodeproj
  ├── README.md
+
+## 💡 Future Improvements
+
+- **Persistent Storage** (Use `UserDefaults` or `CoreData` to store data permanently).
+- **Edit & Delete Features** for car details.
+- **Dark Mode Support**.
+- **Enhanced UI Design** with animations.
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to **fork the repo** and submit a pull request.
+
+### Steps to Contribute:
+1. **Fork the repository.**
+2. **Create a new branch:**
+   ```sh
+   git checkout -b feature-branch
+
