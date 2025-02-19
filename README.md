@@ -48,8 +48,7 @@ The app consists of **a home page** and **three sub-pages**:
 ## 🎥 Video Tutorial
 
 Watch the full tutorial on YouTube:  
-[![GarageApp iOS Tutorial](https://img.youtube.com/vi/L0rDvmYQRJU/hqdefault.jpg
-)](https://youtube.com/shorts/L0rDvmYQRJU?feature=share)  
+[![GarageApp iOS Tutorial](<img width="692" alt="Screenshot 2025-02-18 at 11 56 09 PM" src="https://github.com/user-attachments/assets/9c1ce2af-fb19-490a-a0f2-a9ccc20721db" />)](https://youtube.com/shorts/L0rDvmYQRJU?feature=share)  
 
 ## 🎨 UI/UX Design Requirements
 
