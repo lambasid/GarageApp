@@ -1,3 +1,4 @@
+[![MasterHead](https://i.pinimg.com/originals/83/b8/09/83b809857acd41a7bad4935b4734f9fc.gif)]
 # 🚗 GarageApp
 
 GarageApp is an iOS application that allows users to **store and view car details** seamlessly. Users can enter their car's make, model, year, color, and kilometers, which are stored and retrieved using a global object in `AppDelegate`. This iOS app is designed to **work flawlessly on all devices** and has be tested on multiple simulators.
